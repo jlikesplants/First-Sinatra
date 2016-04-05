@@ -1,0 +1,80 @@
+* {
+box-sizing: border-box;
+}
+
+html {
+  font-size: rem;
+  font-family: 'Muli', sans-serif;
+  background-color: #f9f9f9;
+  padding: 2rem;
+}
+
+header {
+  background: url(/images/gold_wallpaper.jpg);
+  background-size: 90rem;
+  background-repeat: no-repeat;
+  border-radius: .6rem;
+}
+
+h1 {
+  display: inline-block;
+  color: #2c1913;
+  text-align: left;
+  font-size: 6rem;
+  font-weight: lighter;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+  float: left;
+  width: 100%;
+}
+
+nav li {
+  display: inline-block;
+  padding: .75rem; 10rem; .75rem; 10rem;
+  margin: .2%;
+  border: solid #2c1913;
+  border-radius: .3rem;
+  width: 24%;
+  height: 3rem;
+  text-align: center;
+}
+
+nav a {
+  display: block;
+  text-decoration: none;
+  color: #4d201d;
+}
+
+.bio {
+  margin: 12%;
+}
+
+.photo figure {
+  display: block;
+  width: 25%;
+  height: 25%;
+  float: left;
+  margin-left: 0;
+  margin-top: .25rem;
+  }
+
+.photo img {
+  width: 90%;
+  height: 90%;
+  border-radius: .3rem;
+}
+
+.photo figcaption {
+  text-align: center;
+}
+
+footer {
+  clear: both;
+  font-size: .5rem;
+  padding: auto;
+  text-align: center;
+}
