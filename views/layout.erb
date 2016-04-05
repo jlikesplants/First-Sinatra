@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="css" href=<%= @stylesheet %>>
+    <link href='https://fonts.googleapis.com/css?family=Muli:400,300italic' rel='stylesheet' type='text/css'>
+  </head>
+
+  <body>
+    <header>
+      <h1><%= @page_title %></h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About Me</a></li>
+        <li><a href="/blog">Blog</a></li>
+        <li><a href="/portfolio">Portfolio</a></li>
+      </ul>
+    </nav>
+
+    <article>
+      <%= yield %>
+    </article>
+
+    <footer>
+      <p>copyright 2016</p>
+      <p>
+        <a href="mailto:justine.winnie@gmail.com?Subject=Hey, Justine!" target="_top">email Justine</a>
+      </p>
+    </footer>
+  </body>
+
+</html>
